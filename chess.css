@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(250, 206, 110);
+}
+table{
+    width: 40px;;
+    height: 40px;
+    padding: 5px;
+    text-align: center;
+    font-size: 30px;
+    background-color: rgb(252, 182, 31);
+}
+td{
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    background-color: rgb(250, 206, 110);
+    text-align: center;
+    font-size: 30 px;
+}
+.white{
+    background-color: rgb(252, 182, 31);
+}
+.hide table{
+    background-color: rgb(8, 8, 8);
+    margin-top: -260px;
+    margin-left: 120px;
+}
+.block table{
+    display: none;
+}
+.first table{
+     opacity: 0.4;
+     pointer-events: none;
+     background-color: rgb(71, 66, 66);
+}
+.hide td{
+    background-color: rgb(250, 247, 247);
+}  
+.hide{
+    position: relative;
+    opacity: 6;
+}
