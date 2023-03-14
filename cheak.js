@@ -346,9 +346,9 @@ function crear(a){
       }}
     else if(a==3){
       if(arr[c][d]>200){
-        arr[c][d]=234;document.getElementById(c+""+d).textContent='👸🏿';
+        arr[c][d]=224;document.getElementById(c+""+d).textContent='👸🏿';
       }else{
-        arr[c][d]=134;document.getElementById(c+""+d).textContent='👸';
+        arr[c][d]=124;document.getElementById(c+""+d).textContent='👸';
       }
   }
   z=false;
