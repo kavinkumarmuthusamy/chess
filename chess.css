@@ -10,7 +10,7 @@ table{
     background-color: rgb(252, 182, 31);
 }
 td{
-    width: 40px;
+   min- width: 40px;
     height: 40px;
     padding: 5px;
     background-color: rgb(250, 206, 110);
@@ -39,4 +39,8 @@ td{
 .hide{
     position: relative;
     opacity: 6;
+}
+table tr td{
+    min-width: 40px;
+    height: 40px;
 }
