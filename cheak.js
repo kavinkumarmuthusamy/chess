@@ -23,13 +23,20 @@ var bw=0;
 //  bottom diclar
 //function
 
+var audio=document.getElementById("audio");
 function a1(a,b){
+
+  audio.play();
 
   //second click  strat
  
   if(z){
 
     if(brr[a][b]==1){
+      if(arr[a][b]==125||arr[a][b]==225){
+        alert("You win");
+        location.reload();
+       }
          arr[a][b]=arr[c][d];
          arr[c][d]=0;
         
